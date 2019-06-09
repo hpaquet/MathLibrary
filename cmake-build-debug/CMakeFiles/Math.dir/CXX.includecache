@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hugopaquet/CLionProjects/Math/LinearAlgebra.cpp
+LinearAlgebra.h
+/Users/hugopaquet/CLionProjects/Math/LinearAlgebra.h
+iostream
+-
+
+/Users/hugopaquet/CLionProjects/Math/LinearAlgebra.h
+Matrix.h
+/Users/hugopaquet/CLionProjects/Math/Matrix.h
+LinearAlgebra.cpp
+/Users/hugopaquet/CLionProjects/Math/LinearAlgebra.cpp
+
+/Users/hugopaquet/CLionProjects/Math/Matrix.cpp
+Matrix.h
+/Users/hugopaquet/CLionProjects/Math/Matrix.h
+
+/Users/hugopaquet/CLionProjects/Math/Matrix.h
+iostream
+-
+Matrix.cpp
+/Users/hugopaquet/CLionProjects/Math/Matrix.cpp
+
+/Users/hugopaquet/CLionProjects/Math/main.cpp
+iostream
+-
+Matrix.h
+/Users/hugopaquet/CLionProjects/Math/Matrix.h
+LinearAlgebra.h
+/Users/hugopaquet/CLionProjects/Math/LinearAlgebra.h
+
